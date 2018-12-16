@@ -2,46 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2087c2a-c355-4d09-9e86-4ac514cefcfb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/bridge/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/bridge/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/bridge/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/bridge/Computer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/composite/AbstractFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/composite/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/composite/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/decorator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/decorator/ICar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/flyweight/ChessFlyWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/flyweight/ChessFlyWeightFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/flyweight/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/flyweight/Coordinate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/Brand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/Computer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/Computer2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/Dell.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/Desktop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/Desktop2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/Laptop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/Laptop2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/Lenovo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/LenovoDesktop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/LenovoLaptop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/LenovoPad.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/Pad.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/Shenzhou.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/ShenzhouDesktop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/ShenzhouLaptop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/bridge/ShenzhouPad.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/composite/AbstractFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/composite/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/composite/Component.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/composite/Composite.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/composite/Folder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/composite/ImageFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/composite/Leaf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/composite/TextFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ljf/composite/VideoFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/GeneralManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/LeaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/ViceGeneralManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/iterator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/iterator/ConcreteMyAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/iterator/MyIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Development.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Finacial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/mediator/President.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,90 +32,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/flyweight/ChessFlyWeight.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Mediator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="57">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Department.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Development.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
               <folding>
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
                 <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/com.ljf.flyweight">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.ljf.flyweight</OriginalElement>
-              <nodes>
-                <node x="0.0" y="0.0">com.ljf.flyweight.ChessFlyWeight</node>
-                <node x="0.0" y="153.0">com.ljf.flyweight.ChessFlyWeightFactory</node>
-                <node x="161.0" y="227.0">com.ljf.flyweight.Client</node>
-                <node x="0.0" y="227.0">com.ljf.flyweight.Coordinate</node>
-                <node x="2.5" y="79.0">com.ljf.flyweight.ConcreteChess</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.ljf.flyweight.ConcreteChess" target="com.ljf.flyweight.ChessFlyWeight">
-                  <point x="0.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="122.0" y="128.0" />
-              <SelectedNodes>
-                <node>com.ljf.flyweight.ConcreteChess</node>
-              </SelectedNodes>
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Finacial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding>
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/flyweight/ChessFlyWeightFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Market.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <folding>
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/President.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#195#219#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/flyweight/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/flyweight/Coordinate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-              <folding>
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#173#193#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
                 <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -153,29 +128,18 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>asList</find>
+      <find>getRuntime</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/factory/factorymethod/BydFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/factory/factorymethod/Audi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/factory/factorymethod/Byd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/factory/factorymethod/Benz.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/factory/factorymethod/BenzFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/factory/factorymethod/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/factory/abstractfactory/Engine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/factory/abstractfactory/Seat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/factory/abstractfactory/Tyre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/factory/abstractfactory/CarFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/factory/abstractfactory/LuxuryCarFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/factory/abstractfactory/LowCarFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/factory/abstractfactory/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/builder/AirShipBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/builder/AirShipDirector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/builder/DearAirShipBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/builder/DearAirShipDirector.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljf/builder/AirShip.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljf/builder/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljf/prototype/Client.java" />
@@ -210,6 +174,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ljf/flyweight/ChessFlyWeight.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljf/flyweight/ChessFlyWeightFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljf/flyweight/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/LeaveRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Leader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Director.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/GeneralManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/ViceGeneralManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/iterator/MyIterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/iterator/ConcreteMyAggregate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/iterator/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Mediator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Department.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/mediator/President.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Development.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Market.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Finacial.java" />
       </list>
     </option>
   </component>
@@ -221,10 +202,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1706" />
-    <option name="y" value="-144" />
-    <option name="width" value="1448" />
-    <option name="height" value="899" />
+    <option name="x" value="1295" />
+    <option name="y" value="-217" />
+    <option name="width" value="1592" />
+    <option name="height" value="870" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -272,7 +253,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ljf" type="462c0819:PsiDirectoryNode" />
-              <item name="flyweight" type="462c0819:PsiDirectoryNode" />
+              <item name="mediator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,7 +266,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544669547824" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544926171819" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -309,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client (3)">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -442,13 +423,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljf.proxy.dynamicProxy.Client" />
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljf.chainOfResp.Client" />
       <module name="pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljf.proxy.dynamicProxy.*" />
+          <option name="PATTERN" value="com.ljf.chainOfResp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljf.iterator.Client" />
+      <module name="pattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljf.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -457,26 +452,12 @@
       </method>
     </configuration>
     <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljf.bridge.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.ljf.mediator.Client" />
       <module name="pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljf.bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljf.composite.Client" />
-      <module name="pattern" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljf.composite.*" />
+          <option name="PATTERN" value="com.ljf.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -620,19 +601,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Client (2)" />
-      <item itemvalue="Application.Client (3)" />
-      <item itemvalue="Application.Client (4)" />
       <item itemvalue="Application.Client (5)" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.Client (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Client (5)" />
-        <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Client (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -659,18 +640,20 @@
       <workItem from="1544425493041" duration="4949000" />
       <workItem from="1544520247308" duration="9016000" />
       <workItem from="1544578843281" duration="3615000" />
-      <workItem from="1544663759969" duration="4270000" />
+      <workItem from="1544663759969" duration="4879000" />
+      <workItem from="1544704392761" duration="2670000" />
+      <workItem from="1544921309606" duration="4162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32348000" />
+    <option name="totallyTimeSpent" value="39789000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1706" y="-144" width="1448" height="899" extended-state="0" />
+    <frame x="1295" y="-217" width="1592" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2254623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21032257" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -680,12 +663,46 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4941741" visible="true" weight="0.3239796" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4941741" visible="true" weight="0.3231788" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40419948" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.41854304" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50582594" side_tool="true" weight="0.34878048" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.328125" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49676898" weight="0.2754967" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24895689" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20774193" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4941741" weight="0.3239796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.41854304" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50582594" side_tool="true" weight="0.34878048" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.328125" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49676898" weight="0.2767857" />
@@ -702,7 +719,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info anchor="right" id="Maven" order="10" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -712,288 +729,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/factory/abstractfactory/LowCarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/factory/abstractfactory/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/text/NumberFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="440" column="30" selection-start-line="440" selection-start-column="30" selection-end-line="440" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/builder/AirShipBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/builder/DearAirShipDirector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/builder/DearAirShipBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/builder/AirShipDirector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/builder/AirShip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/builder/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.ljf.builder">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.ljf.builder</OriginalElement>
-          <nodes>
-            <node x="14.0" y="153.0">com.ljf.builder.AirShipBuilder</node>
-            <node x="14.0" y="0.0">com.ljf.builder.AirShipDirector</node>
-            <node x="0.0" y="232.0">com.ljf.builder.DearAirShipBuilder</node>
-            <node x="208.0" y="153.0">com.ljf.builder.OrbitalModule</node>
-            <node x="0.0" y="306.0">com.ljf.builder.EscapeTower</node>
-            <node x="0.0" y="79.0">com.ljf.builder.DearAirShipDirector</node>
-            <node x="175.0" y="306.0">com.ljf.builder.AirShip</node>
-            <node x="0.0" y="380.0">com.ljf.builder.Engine</node>
-            <node x="135.0" y="380.0">com.ljf.builder.Client</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.ljf.builder.DearAirShipBuilder" target="com.ljf.builder.AirShipBuilder">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.ljf.builder.DearAirShipDirector" target="com.ljf.builder.AirShipDirector">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8578088578088578" x="-242.0" y="270.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/prototype/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="45" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="25" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/prototype/Sheep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/prototype/Client2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/prototype/Client4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/prototype/Client3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/prototype/Sheep2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/factory/simplefactory/Client02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/factory/simplefactory/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/factory/simplefactory/CarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/adapter/Adapter2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/adapter/Adaptee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/adapter/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/adapter/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/adapter/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.ljf.adapter">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.ljf.adapter</OriginalElement>
-          <nodes>
-            <node x="" y="">com.ljf.adapter.Target</node>
-            <node x="" y="">com.ljf.adapter.Adapter</node>
-            <node x="" y="">com.ljf.adapter.Adapter2</node>
-            <node x="" y="">com.ljf.adapter.Client</node>
-            <node x="" y="">com.ljf.adapter.Adaptee</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-145.0" y="107.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/proxy/staticProxy/Star.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/proxy/staticProxy/RealStar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4">
@@ -1266,7 +1001,7 @@
               <point x="35.0" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="156.5" y="130.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="157.0" y="131.0" />
           <SelectedNodes>
             <node>com.ljf.decorator.ICar</node>
           </SelectedNodes>
@@ -1309,56 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/flyweight/ChessFlyWeightFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#195#219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/flyweight/Coordinate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/flyweight/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/flyweight/ChessFlyWeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/com.ljf.flyweight">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1378,13 +1063,416 @@
               <point x="0.0" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="122.0" y="128.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="38.0" y="13.0" />
           <SelectedNodes>
             <node>com.ljf.flyweight.ConcreteChess</node>
           </SelectedNodes>
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/flyweight/ChessFlyWeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/flyweight/ChessFlyWeightFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/flyweight/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/flyweight/Coordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.ArrayList">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.ArrayList</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.RandomAccess</node>
+            <node x="" y="">java.util.List</node>
+            <node x="" y="">java.lang.Cloneable</node>
+            <node x="" y="">java.util.AbstractCollection</node>
+            <node x="" y="">java.util.Collection</node>
+            <node x="" y="">java.util.AbstractList</node>
+            <node x="" y="">java.lang.Iterable</node>
+            <node x="" y="">java.util.ArrayList</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="314.0" y="173.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.ljf.adapter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.ljf.adapter</OriginalElement>
+          <nodes>
+            <node x="125.0" y="79.0">com.ljf.adapter.Adapter</node>
+            <node x="30.5" y="0.0">com.ljf.adapter.Target</node>
+            <node x="0.0" y="79.0">com.ljf.adapter.Adapter2</node>
+            <node x="0.0" y="153.0">com.ljf.adapter.Client</node>
+            <node x="148.25" y="0.0">com.ljf.adapter.Adaptee</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.ljf.adapter.Adapter" target="com.ljf.adapter.Adaptee">
+              <point x="24.25" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.ljf.adapter.Adapter" target="com.ljf.adapter.Target">
+              <point x="-24.25" y="-14.5" />
+              <point x="149.25" y="54.0" />
+              <point x="96.5" y="54.0" />
+              <point x="22.0" y="14.5" />
+            </edge>
+            <edge source="com.ljf.adapter.Adapter2" target="com.ljf.adapter.Target">
+              <point x="0.0" y="-14.5" />
+              <point x="-22.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-250.0" y="-21.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.Arrays">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.Arrays</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">java.util.Arrays</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="44.0" y="15.0" />
+          <SelectedNodes>
+            <node>java.util.Arrays</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="98" column="11" lean-forward="true" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="3784" column="41" lean-forward="true" selection-start-line="3784" selection-start-column="41" selection-end-line="3784" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.lang.Runtime">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.lang.Runtime</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">java.lang.Runtime</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="49.0" y="15.0" />
+          <SelectedNodes>
+            <node>java.lang.Runtime</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/javax.swing.Action">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>javax.swing.Action</OriginalElement>
+          <nodes>
+            <node x="2.5" y="0.0">java.util.EventListener</node>
+            <node x="0.0" y="79.0">java.awt.event.ActionListener</node>
+            <node x="24.5" y="158.0">javax.swing.Action</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="javax.swing.Action" target="java.awt.event.ActionListener">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.event.ActionListener" target="java.util.EventListener">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="69.0" y="94.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/javax/swing/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="213" column="17" selection-start-line="213" selection-start-column="17" selection-end-line="213" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Leader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="5" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/GeneralManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/ViceGeneralManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/LeaveRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/iterator/MyIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/iterator/ConcreteMyAggregate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#177#185#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/iterator/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Mediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Development.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/President.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#173#193#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Market.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Finacial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

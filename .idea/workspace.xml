@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2087c2a-c355-4d09-9e86-4ac514cefcfb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/GeneralManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Leader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/LeaveRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/chainOfResp/ViceGeneralManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/iterator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/iterator/ConcreteMyAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/iterator/MyIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Development.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Finacial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/mediator/President.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/command/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/command/Invoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/command/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/strategy/NewCustomerFewStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/strategy/NewCustomerManyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/strategy/OldCustomerFewStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljf/strategy/Strategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,88 +25,63 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Mediator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/strategy/Strategy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="42" />
+              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Department.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/strategy/NewCustomerFewStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="114">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Development.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/strategy/NewCustomerManyStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+            <state relative-caret-position="133">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/strategy/OldCustomerFewStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/strategy/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
               <folding>
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Finacial.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/strategy/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-              <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Market.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-              <folding>
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/President.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#173#193#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/mediator/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="171">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -140,16 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/builder/AirShip.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/builder/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/prototype/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/prototype/Sheep2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/prototype/Client2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/prototype/Sheep.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/prototype/Client4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/prototype/Client3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/adapter/Adaptee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljf/adapter/Target.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljf/adapter/Adapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljf/adapter/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljf/adapter/Adapter2.java" />
@@ -191,6 +149,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Market.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljf/mediator/Finacial.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/command/Receiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/command/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/command/Invoke.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/command/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/strategy/Strategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/strategy/NewCustomerFewStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/strategy/NewCustomerManyStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/strategy/OldCustomerFewStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/strategy/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljf/strategy/Client.java" />
       </list>
     </option>
   </component>
@@ -202,8 +170,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1295" />
-    <option name="y" value="-217" />
+    <option name="x" value="1578" />
+    <option name="y" value="-76" />
     <option name="width" value="1592" />
     <option name="height" value="870" />
   </component>
@@ -253,7 +221,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ljf" type="462c0819:PsiDirectoryNode" />
-              <item name="mediator" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,7 +234,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544926171819" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544961247274" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -290,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
+  <component name="RunManager" selected="Application.Client (4)">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -465,13 +433,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljf.decorator.Client" />
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljf.strategy.Client" />
       <module name="pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljf.decorator.*" />
+          <option name="PATTERN" value="com.ljf.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -601,19 +569,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Client (5)" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
+      <item itemvalue="Application.Client (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Client (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -642,15 +610,15 @@
       <workItem from="1544578843281" duration="3615000" />
       <workItem from="1544663759969" duration="4879000" />
       <workItem from="1544704392761" duration="2670000" />
-      <workItem from="1544921309606" duration="4162000" />
+      <workItem from="1544921309606" duration="7717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39789000" />
+    <option name="totallyTimeSpent" value="43344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1295" y="-217" width="1592" height="870" extended-state="0" />
+    <frame x="1578" y="-76" width="1592" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21032257" />
@@ -729,174 +697,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/proxy/staticProxy/RealStar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/proxy/staticProxy/ProxyStar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.ljf.proxy.staticProxy">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.ljf.proxy.staticProxy</OriginalElement>
-          <nodes>
-            <node x="" y="">com.ljf.proxy.staticProxy.Star</node>
-            <node x="" y="">com.ljf.proxy.staticProxy.Client</node>
-            <node x="" y="">com.ljf.proxy.staticProxy.ProxyStar</node>
-            <node x="" y="">com.ljf.proxy.staticProxy.RealStar</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="113.0" y="91.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/proxy/staticProxy/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/proxy/dynamicProxy/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/proxy/dynamicProxy/RealStar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/proxy/dynamicProxy/Star.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/proxy/dynamicProxy/StarHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/bridge/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1117#1118#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/bridge/Brand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/bridge/Computer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/bridge/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/com.ljf.bridge">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1473,6 +1273,151 @@
             <element signature="e#362#363#0" expanded="true" />
             <element signature="e#410#411#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.ljf.mediator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.ljf.mediator</OriginalElement>
+          <nodes>
+            <node x="" y="">com.ljf.mediator.Market</node>
+            <node x="" y="">com.ljf.mediator.Mediator</node>
+            <node x="" y="">com.ljf.mediator.Finacial</node>
+            <node x="" y="">com.ljf.mediator.Department</node>
+            <node x="" y="">com.ljf.mediator.Development</node>
+            <node x="" y="">com.ljf.mediator.President</node>
+            <node x="" y="">com.ljf.mediator.Client</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-196.5" y="140.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/command/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/command/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.ljf.command">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.ljf.command</OriginalElement>
+          <nodes>
+            <node x="28.0" y="0.0">com.ljf.command.Command</node>
+            <node x="144.0" y="153.0">com.ljf.command.Invoke</node>
+            <node x="0.0" y="153.0">com.ljf.command.Receiver</node>
+            <node x="0.0" y="227.0">com.ljf.command.Client</node>
+            <node x="0.0" y="79.0">com.ljf.command.ConcreteCommand</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.ljf.command.ConcreteCommand" target="com.ljf.command.Command">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="116.0" y="128.0" />
+          <SelectedNodes>
+            <node>com.ljf.command.ConcreteCommand</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/command/Invoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="83" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/strategy/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/strategy/NewCustomerFewStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/strategy/NewCustomerManyStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/strategy/OldCustomerFewStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/strategy/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljf/strategy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

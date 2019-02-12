@@ -1,8 +1,6 @@
-### 设计模式
-
 [TOC]
 
-####设计模式概述
+##设计模式概述
 
 设计模式是一套被反复使用的、多数人知晓的、经过分类编目的、代码设计经验的总结。
 
@@ -67,11 +65,13 @@ GOF：
 
 
 
-#### 创建型模式
+##创建型模式
 
 这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用 new 运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。
 
-##### 单例模式（Singleton Pattern）
+
+
+###单例模式（Singleton Pattern）
 
 这种模式涉及到一个单一的类，该类负责创建自己的对象，同时确保只有单个对象被创建。这个类提供了一种访问其唯一的对象的方式，可以直接访问，不需要实例化该类的对象。
 
@@ -220,7 +220,9 @@ CountDownLatch
   - countDown()：当前线程调用此方法，则计数器减1（建议放在finally里执行）
   - await()：调用此方法会一直阻塞当前线程，知道计时器为0
 
-##### 工厂模式（Factory Pattern）
+
+
+###工厂模式（Factory Pattern）
 
 在工厂模式中，我们在创建对象时不会对客户端暴露创建逻辑，并且是通过使用一个共同的接口来指向新创建的对象。
 
@@ -239,7 +241,7 @@ CountDownLatch
 
 
 
-##### 抽象工厂模式
+###抽象工厂模式
 
 不可以增加产品，可以增加产品族
 
@@ -254,7 +256,7 @@ CountDownLatch
 
 
 
-#####建造者模式
+###建造者模式
 
 场景：
 
@@ -276,7 +278,7 @@ CountDownLatch
 
 
 
-##### 原型模式（Prototype）
+###原型模式（Prototype）
 
 场景：
 
@@ -342,7 +344,7 @@ public class Client3 {
 
 
 
-##### 总结
+###总结
 
 创建型模式：都是用来帮助我们创建对象的
 
@@ -359,11 +361,13 @@ public class Client3 {
 
 
 
-#### 结构型模式
+##结构型模式
 
 核心作用：是从程序的结构上实现松耦合，从而可以扩大整体的类结构，用来解决更大的问题。
 
- ##### 适配器模式（adapter）
+
+
+###适配器模式（adapter）
 
 什么是适配器模式？
 
@@ -387,7 +391,7 @@ public class Client3 {
 
 
 
-##### 代理模式（Proxy Pattern）✨
+###代理模式（Proxy Pattern）✨
 
 核心作用：
 
@@ -457,7 +461,7 @@ proxy.sing();
 
 
 
-##### 桥接模式（bridge）
+###桥接模式（bridge）
 
 场景：
 
@@ -482,7 +486,7 @@ proxy.sing();
 
 
 
-##### 组合模式（composite）
+###组合模式（composite）
 
 **树形结构想到组合模式**
 
@@ -514,7 +518,7 @@ proxy.sing();
 
 
 
-#####装饰器模式（decorator）
+###装饰器模式（decorator）
 
 职责：
 
@@ -576,7 +580,7 @@ Reader r = new BufferedReader(new InputStreamReader(new FileInputStream(new File
 
 
 
-#####外观模式（Facade Pattern）
+###外观模式（Facade Pattern）
 
 迪米特法则（最少知识原则）：
 
@@ -593,7 +597,7 @@ Reader r = new BufferedReader(new InputStreamReader(new FileInputStream(new File
 
 
 
-##### 享元模式（FlyWeight）
+###享元模式（FlyWeight）
 
 场景：
 
@@ -645,11 +649,13 @@ Reader r = new BufferedReader(new InputStreamReader(new FileInputStream(new File
 
 
 
-#### 行为型模式
+##行为型模式
 
 关注系统中对象之间的相互交互，研究系统在运行时对象之间的相互通信和协作，进一步明确对象的职责，共有11种模式
 
-##### 责任链模式
+
+
+###责任链模式
 
 将能够处理同一类请求的对象连成一条链，所提交的请求沿着链传递，链上的对象逐个判断是否有能力处理该请求，如果能则处理，如果不能则传递给链上的下一个对象。
 
@@ -675,7 +681,7 @@ Reader r = new BufferedReader(new InputStreamReader(new FileInputStream(new File
 
 
 
-##### 迭代器模式 （iterator）
+###迭代器模式 （iterator）
 
 场景：
 
@@ -694,7 +700,7 @@ JDK内置的迭代器（List/Set）
 
 
 
-#####中介者模式（Mediator）
+###中介者模式（Mediator）
 
 核心：
 
@@ -717,7 +723,7 @@ JDK内置的迭代器（List/Set）
 
 
 
-##### 命令模式（command）不太使用
+###命令模式（command）不太使用
 
 介绍：
 
@@ -743,7 +749,7 @@ JDK内置的迭代器（List/Set）
 
 
 
-##### 解释器模式（interpreter）不常使用
+###解释器模式（interpreter）不常使用
 
 介绍：
 
@@ -761,7 +767,7 @@ JDK内置的迭代器（List/Set）
 
 
 
-##### 访问者模式（Visitor）不常用
+###访问者模式（Visitor）不常用
 
 模式动机：
 
@@ -779,7 +785,7 @@ JDK内置的迭代器（List/Set）
 
 
 
-##### 策略模式（strategy）
+###策略模式（strategy）
 
 策略模式：
 
@@ -795,7 +801,7 @@ JDK内置的迭代器（List/Set）
 
 
 
-#####模板方法模式（template method）
+###模板方法模式（template method）
 
 模板方法模式介绍：
 
@@ -826,7 +832,7 @@ JDK内置的迭代器（List/Set）
 
 
 
-##### 状态模式（state）
+###状态模式（state）
 
 场景：
 
@@ -856,7 +862,7 @@ JDK内置的迭代器（List/Set）
 
 
 
-##### 观察者模式（Observer）
+###观察者模式（Observer）
 
 广播机制的场景
 
@@ -883,7 +889,7 @@ JAVASE提供了`java.util.Observable`和`java.util.Observer`来实现观察者�
 
 
 
-##### 备忘录模式（memento）
+###备忘录模式（memento）
 
 核心：
 
@@ -916,8 +922,5 @@ public class CareTaker {
 - 普通软件中的，撤销操作
 - 数据库软件中的，事务管理中的，回滚操作
 - Photoshop软件中的，历史记录
-
-
-
 
 
